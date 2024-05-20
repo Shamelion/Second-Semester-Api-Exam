@@ -1,43 +1,177 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-size: 0.9rem;
-    font-family: 'Inter', sans-serif;
-    color: rgb(196, 187, 187);
-    background-color: #220f0f;
-    letter-spacing: 0.02rem;
-    min-height: 100vh;
+  font-size: 0.9rem;
+  font-family: "Inter", sans-serif;
+  color: rgb(196, 187, 187);
+  background-color: #220f0f;
+  letter-spacing: 0.02rem;
+  min-height: 100vh;
 }
 
 h1 {
-    font-size: 2.1rem;
+  font-size: 2.1rem;
 }
 
 p {
-    padding: 5px 0;
+  padding: 5px 0;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
-    padding: 20px;
-    margin-bottom: 50px;
-    font-style: italic;
-    color: rgb(226, 217, 205);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 50px;
+  font-style: italic;
+  color: rgb(226, 217, 205);
 }
 
 .github-icon {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
+.repo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.input-wrapper {
+  background-color: #be2525;
+  width: 55%;
+  border-radius: 10px;
+  height: 2.5rem;
+  padding: 0 15px;
+  box-shadow: 0px 0px 8px #ddd;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  padding: 20px 0;
+}
+
+.view-more {
+  text-align: center;
+  font-size: 1rem;
+  color: #ad3b9a;
+  cursor: pointer;
+  margin: 50px 0 60px;
+}
+
+.view-more:hover {
+  text-decoration: underline;
+  /* color: #ad3b9a; */
+  color: #c8dbdf;
+  background-color: rgb(51, 191, 191);
+}
+
+.view-more:active {
+  background-color: #080c09;
+}
+
+.repo-card,
+.RepoDetail-card {
+  border: 1px solid #000000;
+  padding: 13px;
+  border-radius: 5px;
+}
+.repo-card,
+.RepoDetail-card:hover {
+  box-shadow: 0 0 10px #e2eaeb;
+}
+
+.repo-card:hover {
+  background-color: #cf858c;
+  color: #662828;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+a:hover {
+    text-decoration: ;
+}
+
+.repo-name {
+  color: #5e2dce;
+  font-size: 2rem;
+  word-break: break-word;
+}
+
+#RepoDetail {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#RepoDetail p {
+  padding: 15px 0;
+  word-break: break-all;
+}
+
+.repo-mini-details {
+  gap: 10px 10px;
+  margin: 0 0 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.repo-mini-details p {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.icons {
+  color: #1b9aaa;
+}
+
+.error-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 50h;
+}
+
+.error-page h1 {
+  font-size: 3rem;
+  color: #1b9aaa;
+  margin-bottom: 20px;
+}
+
+.error-status {
+  font-size: 5rem;
+}
+
+/* @media screen and (max-width: 380px) {
+  .repo-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  h1 {
+      font-size: 1.5rem;
+  }
+
+  .github-icon {
+      font-size: 2rem;
+  }
+
+} */
 
 /* To be reviewed */
 /* hr {
