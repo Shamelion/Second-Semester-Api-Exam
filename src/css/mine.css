@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    color: rgb(196, 187, 187);
+    background-color: #220f0f;
+    letter-spacing: 0.02rem;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2.1rem;
+}
+
+p {
+    padding: 5px 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    font-style: italic;
+    color: rgb(226, 217, 205);
+}
+
+.github-icon {
+    font-size: 3rem;
+}
+
+
+/* To be reviewed */
+/* hr {
+    border: 5px solid red;
+} */
