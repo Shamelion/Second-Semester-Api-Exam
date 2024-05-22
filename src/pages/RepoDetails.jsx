@@ -47,8 +47,8 @@ function RepoDetails() {
                     <p><FaCodeBranch className="icons" /> Branches: {branch.length}</p>
                 </div>
                 <p>Main Language: {details.language === null ? "none": details.language}</p>
-                <p>Live site: {deployment.length === 0 ? `none` : <a href={`https://Shamelion.github.io/${details.name}`}>Shamelion.github.io/{details.name}</a>}</p>
-                <p><a href={`https://github.com/${details.full_name}`}>View on Github</a></p>
+                <p>Live site: {deployment.length === 0 ? `none` : <a href={`https://Shamelion.github.io/${details.name}`} target='_blank'>Shamelion.github.io/{details.name}</a>}</p>
+                <p><a href={`https://github.com/${details.full_name}`} target='_blank'>View on Github</a></p>
 
             </div>
         </div>

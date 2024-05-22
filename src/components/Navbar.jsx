@@ -20,8 +20,8 @@ function Navbar() {
         <span className="/">|</span> React <br /> <span className="/"></span>
         <div>Public Repository : 5</div>
       </div>
-      <div>
-        <div className="flex items-center space-x-4">
+        <div className="flex-items-icon">
+          <h4>Socials:</h4>
           <a
             href="https://github.com/Shamelion"
             target="_blank"
@@ -53,9 +53,15 @@ function Navbar() {
           >
             <FaMedium size={24} />
           </a>
-        </div> 
-      </div><hr />
+        </div>
+        {/* <div className="searchNav">
+          <a class="active" href="#home">Home</a>
+          <a href="#home">About</a>
+          <a href="#home">Contact</a>
+          <input type="text" placeholder="Search..."/>
+        </div> */}
     </div> 
+    
   );
 }
 

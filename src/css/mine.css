@@ -32,6 +32,18 @@ p {
   margin-bottom: 50px;
   font-style: italic;
   color: rgb(226, 217, 205);
+  background-color: #8d5459;
+}
+
+.flex-items-icon {
+  border: 5ps solid rgb(42, 138, 40);
+  margin: 1rem;
+  border-radius: 50%;
+  background-color: rgb(226, 217, 205);
+}
+ .flex-items-icon > h4 {
+  color: rgb(226, 217, 205);
+  background-color: #8d5459;
 }
 
 .github-icon {
