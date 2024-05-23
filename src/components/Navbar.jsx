@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaMedium,
 } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 function Navbar() {
   return (
@@ -52,6 +53,13 @@ function Navbar() {
             rel="noopener noreferrer"
           >
             <FaMedium size={24} />
+          </a>
+          <a
+            href="https://leetcode.com/submissions/#/1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiLeetcode size={24} />
           </a>
         </div>
         {/* <div className="searchNav">
